@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=sample_42-Aza-l-1_CIRIquant
-#SBATCH --time=00:30:00
+#SBATCH --time=00:15:00
 #SBATCH --mem=4G
 #SBATCH --account=rrg-zovoilis
 
