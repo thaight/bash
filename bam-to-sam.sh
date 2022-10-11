@@ -4,10 +4,10 @@
 #SBATCH --mem=4G
 #SBATCH --account=rrg-zovoilis
 
-while getopts l: flag
+while getopts i:o: flag
 do
   	case "${flag}" in
-            l) input=${OPTARG};;
+            i) input=${OPTARG};;
             o) output=${OPTARG};;
         esac
 done
